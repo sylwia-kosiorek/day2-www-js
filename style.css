@@ -1,3 +1,9 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
 /*CONTAINER */
 
 .container {
@@ -14,6 +20,13 @@
     padding: 20px;
 }
 /* END OF CONTAINER */
+/* HERO */
+.glide__slide-img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+/* END OF HERO */
 /* TECHNOLOGIES */
 .technologies__col {
     display: flex;
